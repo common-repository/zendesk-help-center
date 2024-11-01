@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zendesk-help-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-28 15:49+0200\n"
+"PO-Revision-Date: 2021-12-28 15:50+0200\n"
+"Last-Translator: bestwebsoft.com <plugins@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft Team <wp@bestwebsoft.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n%10==1 && n%100!=11) ? 3 : "
+"((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bws_menu\n"
+
+#: includes/class-zndskhc-settings.php:21 zendesk-help-center.php:35
+#: zendesk-help-center.php:37 zendesk-help-center.php:1267
+#: zendesk-help-center.php:1281
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/class-zndskhc-settings.php:22
+msgid "Misc"
+msgstr "Разное"
+
+#: includes/class-zndskhc-settings.php:23
+msgid "Custom Code"
+msgstr "Пользовательский код"
+
+#: includes/class-zndskhc-settings.php:24
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: includes/class-zndskhc-settings.php:60
+msgid "The log file is cleared."
+msgstr "Файл журналу очищено."
+
+#: includes/class-zndskhc-settings.php:62
+msgid "Couldn't clear log file."
+msgstr "Не вдалося очистити файл журналу."
+
+#: includes/class-zndskhc-settings.php:98
+msgid "Settings saved"
+msgstr "Налаштування збережено"
+
+#: includes/class-zndskhc-settings.php:109 zendesk-help-center.php:296
+msgid "Categories"
+msgstr "Категорії"
+
+#: includes/class-zndskhc-settings.php:110 zendesk-help-center.php:297
+msgid "Sections"
+msgstr "Секції"
+
+#: includes/class-zndskhc-settings.php:111 zendesk-help-center.php:41
+#: zendesk-help-center.php:298
+msgid "Articles"
+msgstr "Статті"
+
+#: includes/class-zndskhc-settings.php:112 zendesk-help-center.php:299
+msgid "Articles Comments"
+msgstr "Коментарі статей"
+
+#: includes/class-zndskhc-settings.php:113 zendesk-help-center.php:300
+msgid "Articles Labels"
+msgstr "Ярлики статей"
+
+#: includes/class-zndskhc-settings.php:114 zendesk-help-center.php:301
+msgid "Articles Attachments"
+msgstr "Прикріплені файли статей"
+
+#: includes/class-zndskhc-settings.php:121 zendesk-help-center.php:309
+msgid "Error creating log file"
+msgstr "Помилка при створенні файлу журналу"
+
+#: includes/class-zndskhc-settings.php:127 zendesk-help-center.php:378
+msgid "Help Center Settings"
+msgstr "Налаштування Help Center"
+
+#: includes/class-zndskhc-settings.php:130
+msgid "Zendesk Authorization"
+msgstr "Авторизація Zendesk"
+
+#: includes/class-zndskhc-settings.php:134
+msgid "Zendesk Information"
+msgstr "Інформація Zendesk"
+
+#: includes/class-zndskhc-settings.php:137
+msgid "subdomain"
+msgstr "пiддомен"
+
+#: includes/class-zndskhc-settings.php:139
+#, php-format
+msgid "Example: your URL is %s, and it is necessary to enter %s part only."
+msgstr "Приклад: якщо ваш URL %s, то потрібно ввести тільки частину %s."
+
+#: includes/class-zndskhc-settings.php:144
+msgid "email"
+msgstr "email"
+
+#: includes/class-zndskhc-settings.php:145
+msgid "password"
+msgstr "пароль"
+
+#: includes/class-zndskhc-settings.php:146
+msgid "token"
+msgstr "токен"
+
+#: includes/class-zndskhc-settings.php:147
+msgid "Don't know how to generate API token? "
+msgstr "Не знаєш як згенерувати API токен? "
+
+#: includes/class-zndskhc-settings.php:147
+msgid "Read the instruction"
+msgstr "Читай iнструкцiю"
+
+#: includes/class-zndskhc-settings.php:151
+msgid "General"
+msgstr "Основнi"
+
+#: includes/class-zndskhc-settings.php:155
+msgid "Log File Size"
+msgstr "Розмір файлу журналу"
+
+#: includes/class-zndskhc-settings.php:160
+msgid "Kbyte"
+msgstr "Кбайт"
+
+#: includes/class-zndskhc-settings.php:162
+msgid "Clear"
+msgstr "Очистити"
+
+#: includes/class-zndskhc-settings.php:168
+msgid "Synchronize Every"
+msgstr "Синхронізувати кожні"
+
+#: includes/class-zndskhc-settings.php:170
+msgid "hours"
+msgstr "годин"
+
+#: includes/class-zndskhc-settings.php:171
+msgid "Set 0 to disable auto backup."
+msgstr "Встановіть 0, щоб вимкнути автоматичне резервне копiювання."
+
+#: includes/class-zndskhc-settings.php:175
+msgid "Backup"
+msgstr "Резервне копiювання"
+
+#: includes/class-zndskhc-settings.php:183
+msgid "Backup Failure Notification"
+msgstr "Повідомлення про помилку резервного копіювання"
+
+#: includes/class-zndskhc-settings.php:186
+msgid "Enable to receive notification on backup failure."
+msgstr "Увімкнути отримання сповіщень про помилку резервного копіювання."
+
+#: includes/class-zndskhc-settings.php:193
+#: includes/class-zndskhc-settings.php:202
+msgid "Help Widget"
+msgstr "Віджета допомоги"
+
+#: includes/class-zndskhc-settings.php:198
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/class-zndskhc-settings.php:205
+msgid "Enable to display help widget on the site."
+msgstr "Увімкніть для відображення віджета допомоги на сайті."
+
+#: includes/class-zndskhc-settings.php:209
+msgid "Button Link"
+msgstr "Посилання на кнопку"
+
+#: includes/class-zndskhc-settings.php:215
+msgid "Button Title"
+msgstr "Назва кнопки"
+
+#: zendesk-help-center.php:43
+msgid "Widget Statistic"
+msgstr "Статистика віджетів"
+
+#: zendesk-help-center.php:49
+msgid "Upgrade to Pro"
+msgstr "Оновити до Pro"
+
+#: zendesk-help-center.php:322
+msgid "Data is successfully updated."
+msgstr "Дані успішно оновлено."
+
+#: zendesk-help-center.php:326
+msgid "Help Center"
+msgstr "Help Center"
+
+#: zendesk-help-center.php:330
+msgid "Last synchronization with Zendesk Help Center was on"
+msgstr "Остання синхронізація з Zendesk Help Center була"
+
+#: zendesk-help-center.php:349
+msgid "Synchronize now"
+msgstr "Синхронізувати зараз"
+
+#: zendesk-help-center.php:358
+msgid "Export backup"
+msgstr "Експорт резервної копії"
+
+#: zendesk-help-center.php:388 zendesk-help-center.php:398
+msgid "This tab contains Pro options only."
+msgstr "Ця вкладка містить лише параметри Pro."
+
+#: zendesk-help-center.php:415
+msgid "Please, choose at least one element."
+msgstr "Будь ласка, виберіть хоча б один елемент."
+
+#: zendesk-help-center.php:477
+msgid "Error creating zip archive."
+msgstr "Помилка створення ZIP-архіву."
+
+#: zendesk-help-center.php:536 zendesk-help-center.php:539
+#: zendesk-help-center.php:556 zendesk-help-center.php:570
+#: zendesk-help-center.php:653 zendesk-help-center.php:667
+#: zendesk-help-center.php:756 zendesk-help-center.php:765
+#: zendesk-help-center.php:837 zendesk-help-center.php:846
+#: zendesk-help-center.php:906 zendesk-help-center.php:915
+#: zendesk-help-center.php:1048 zendesk-help-center.php:1075
+#: zendesk-help-center.php:1089 zendesk-help-center.php:1204
+msgid "ERROR"
+msgstr "ПОМИЛКА"
+
+#: zendesk-help-center.php:536 zendesk-help-center.php:539
+msgid "Backup failed as some plugin settings are empty. To fix it go to"
+msgstr ""
+"Відбувся збій резервного копiювання, тому що деякі налаштування плагіну не "
+"заповнено. Щоб це виправити, перейдіть на"
+
+#: zendesk-help-center.php:536 zendesk-help-center.php:539
+msgid "the settings page"
+msgstr "сторінку налаштувань"
+
+#: zendesk-help-center.php:556 zendesk-help-center.php:566
+#: zendesk-help-center.php:570 zendesk-help-center.php:629
+msgid "Categories backup"
+msgstr "Резервне копiювання категорій"
+
+#: zendesk-help-center.php:556 zendesk-help-center.php:653
+#: zendesk-help-center.php:756 zendesk-help-center.php:837
+#: zendesk-help-center.php:906 zendesk-help-center.php:1075
+msgid "Undefined error has occurred while getting data from Zendesk API."
+msgstr "Невідома помилка при отриманні даних від Zendesk API."
+
+#: zendesk-help-center.php:566 zendesk-help-center.php:663
+#: zendesk-help-center.php:1085 zendesk-help-center.php:1207
+msgid "WARNING"
+msgstr "УВАГА"
+
+#: zendesk-help-center.php:631 zendesk-help-center.php:730
+#: zendesk-help-center.php:1023 zendesk-help-center.php:1036
+#: zendesk-help-center.php:1057 zendesk-help-center.php:1133
+msgid "added"
+msgstr "додано"
+
+#: zendesk-help-center.php:634 zendesk-help-center.php:733
+#: zendesk-help-center.php:1026 zendesk-help-center.php:1039
+#: zendesk-help-center.php:1060 zendesk-help-center.php:1136
+msgid "updated"
+msgstr "оновлено"
+
+#: zendesk-help-center.php:637 zendesk-help-center.php:736
+#: zendesk-help-center.php:1029 zendesk-help-center.php:1042
+#: zendesk-help-center.php:1063 zendesk-help-center.php:1139
+msgid "deleted"
+msgstr "видалено"
+
+#: zendesk-help-center.php:653 zendesk-help-center.php:663
+#: zendesk-help-center.php:667 zendesk-help-center.php:728
+msgid "Sections backup"
+msgstr "Резервне копiювання секцій"
+
+#: zendesk-help-center.php:756 zendesk-help-center.php:765
+#: zendesk-help-center.php:1021
+msgid "Articles backup"
+msgstr "Резервне копiювання статей"
+
+#: zendesk-help-center.php:837 zendesk-help-center.php:846
+#: zendesk-help-center.php:1034
+msgid "Comments backup"
+msgstr "Резервне копiювання коментарів"
+
+#: zendesk-help-center.php:906 zendesk-help-center.php:915
+#: zendesk-help-center.php:1048 zendesk-help-center.php:1055
+msgid "Attachments backup"
+msgstr "Резервне копiювання прикріплених файлів"
+
+#: zendesk-help-center.php:936
+msgid "Error adding file"
+msgstr "Помилка додавання файлу"
+
+#: zendesk-help-center.php:956
+msgid "Error updating file"
+msgstr "Помилка оновлення файлу"
+
+#: zendesk-help-center.php:988
+msgid "Error deleting file"
+msgstr "Помилка видалення файлу"
+
+#: zendesk-help-center.php:1075 zendesk-help-center.php:1085
+#: zendesk-help-center.php:1089 zendesk-help-center.php:1131
+msgid "Labels backup"
+msgstr "Резервне копiювання ярликів"
+
+#: zendesk-help-center.php:1196
+msgid "Last log entries"
+msgstr "Останні записи журналу"
+
+#: zendesk-help-center.php:1239
+msgid "Help Center backup error on"
+msgstr "Помилка резервного копіювання довідкового центру ввімкнена"
+
+#: zendesk-help-center.php:1283
+msgid "FAQ"
+msgstr "FAQ"
+
+#: zendesk-help-center.php:1284
+msgid "Support"
+msgstr "Техпідтримка"
+
+#~ msgid "Send Email on Backup Failure"
+#~ msgstr "Відправити повiдомлення при збою резервного копіювання"
+
+#~ msgid "Contact Link"
+#~ msgstr "Посилання на зворотний зв'язок"
+
+#~ msgid ""
+#~ "There is no ZIP library on your server. You can download attachments "
+#~ "manually from folder"
+#~ msgstr ""
+#~ "На вашому сервері немає ZIP бібліотеки. Ви можете завантажити прикріплені "
+#~ "файли вручну з каталогу"
+
+#~ msgid "Export"
+#~ msgstr "Експорт"
+
+#~ msgid "Backup failed as this hosting does not support СURL."
+#~ msgstr ""
+#~ "Збій створення резервної копії, тому що даний хостинг не підтримує СURL."
+
+#~ msgid "Zendesk HC backup error on"
+#~ msgstr "Zendesk HC помилка резервної копії на"
+
+#~ msgid "All plugin settings were restored."
+#~ msgstr "Всі налаштування плагіну було скинуто до стандартних."
+
+#~ msgid "Please, enable JavaScript in your browser."
+#~ msgstr "Будьласка, ввімкніть JavaScript в вашому браузері."
+
+#~ msgid "Go PRO"
+#~ msgstr "Перейти на Pro версію"
+
+#~ msgid "Synchronize Zendesk HC every"
+#~ msgstr "Синхронізуровати Zendesk HC кожні"
+
+#~ msgid "Contact link in help widget"
+#~ msgstr "Посилання на зворотний зв'язок в віджеті"
+
+#~ msgid "Button title in help widget"
+#~ msgstr "Назва кнопки в віджеті"
+
+#~ msgid "Learn More"
+#~ msgstr "Докладніше"
+
+#~ msgid "Save Changes"
+#~ msgstr "Зберегти зміни"
+
+#~ msgid "Data is updated successfully"
+#~ msgstr "Дані успішно оновлено"
+
+#~ msgid "user"
+#~ msgstr "користувач"
+
+#~ msgid "Unlock premium options by upgrading to Pro version"
+#~ msgstr "Зробити доступними преміум-опції, перейшовши на Pro версію"
+
+#~ msgid "Notice:"
+#~ msgstr "Увага:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them, please "
+#~ "don't forget to click 'Save Changes' button."
+#~ msgstr ""
+#~ "Налаштування плагіну змінено. Щоб зберегти їх, не забудьте клікнути "
+#~ "\"Зберегти зміни\"."

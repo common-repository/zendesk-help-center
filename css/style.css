@@ -1,0 +1,14 @@
+.zndskhc_loader {
+	display: none;
+	margin: 1px 5px;
+	position: fixed;
+}
+.zndskhc_error_log {
+	color: #dc3232;
+}
+.zndskhc_warning_log {
+	color: #DAA520;
+}
+.zndskhc_input_field {
+	width: 250px;
+}

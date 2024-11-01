@@ -1,0 +1,7 @@
+.menu-top.toplevel_page_zendesk_hc .wp-menu-image {
+	font-family: 'bwsicons' !important;
+}
+.menu-top.toplevel_page_zendesk_hc .wp-menu-image:before {
+	content: "\e935";
+	font-family: 'bwsicons' !important;
+}
